@@ -1,0 +1,58 @@
+[
+    {
+        "timestamp": "2026-08-18 13:07:20",
+        "module": "Voice Translation (XTTS Cloned)",
+        "source_text": "hi how are you I am fine",
+        "translated_text": "hola como estas estoy bien",
+        "target_lang": "Spanish",
+        "has_audio": true
+    },
+    {
+        "timestamp": "2026-08-18 12:59:23",
+        "module": "Voice Translation (XTTS Cloned)",
+        "source_text": "hi how are you I am fine",
+        "translated_text": "hola como estas estoy bien",
+        "target_lang": "Spanish",
+        "has_audio": true
+    },
+    {
+        "timestamp": "2026-08-17 20:38:41",
+        "module": "Voice Translation (Cloned)",
+        "source_text": "hi how are you I am fine and you are",
+        "translated_text": "hola como estas yo estoy bien y tu estas",
+        "target_lang": "Spanish",
+        "has_audio": true
+    },
+    {
+        "timestamp": "2026-08-17 20:31:13",
+        "module": "Voice Translation (Cloned)",
+        "source_text": "hi how are you are you fine and I am fine",
+        "translated_text": "hola como estas tu estas bien y yo estoy bien",
+        "target_lang": "Spanish",
+        "has_audio": true
+    },
+    {
+        "timestamp": "2026-08-17 20:27:50",
+        "module": "Voice Translation",
+        "source_text": "hi how are you are you fine",
+        "translated_text": "\u55e8\uff0c\u4f60\u597d\u5417\uff0c\u4f60\u597d\u5417",
+        "target_lang": "Chinese (Simplified)",
+        "has_audio": true
+    },
+    {
+        "timestamp": "2026-08-17 20:26:52",
+        "module": "Voice Translation",
+        "source_text": "hi how are you I am fine and you are",
+        "translated_text": "\u0bb9\u0bbe\u0baf\u0bcd \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bc0\u0bb0\u0bcd\u0b95\u0bb3\u0bcd \u0ba8\u0bbe\u0ba9\u0bcd \u0ba8\u0bb2\u0bae\u0bbe\u0b95 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bc7\u0ba9\u0bcd \u0ba8\u0bc0\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bc0\u0bb0\u0bcd\u0b95\u0bb3\u0bcd",
+        "target_lang": "Tamil",
+        "has_audio": true
+    },
+    {
+        "timestamp": "2026-08-17 20:23:32",
+        "module": "Voice Translation",
+        "source_text": "hi how are you I am fine and you are fine let me tell you kidnapping from your I am very very big",
+        "translated_text": "Error 504 (Server Error)!!1504.That\u2019s an error.There was an error. Please try again later.That\u2019s all we know.",
+        "target_lang": "Spanish",
+        "has_audio": true
+    }
+]

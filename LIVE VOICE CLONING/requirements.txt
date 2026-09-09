@@ -1,0 +1,13 @@
+streamlit
+sounddevice
+soundfile
+SpeechRecognition
+deep-translator
+gTTS
+librosa
+scipy
+numpy
+requests
+pypdf
+gradio_client
+edge-tts
