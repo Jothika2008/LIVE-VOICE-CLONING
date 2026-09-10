@@ -10,10 +10,13 @@ import json
 import time
 import pypdf
 import librosa
+import importlib
 from core.tts_engine import TTSEngine
 from core.elevenlabs_client import ElevenLabsClient
 from core.translator import safe_translate
 from modules.conversation_mode import render_conversation_mode_module
+import modules.accent_coach
+importlib.reload(modules.accent_coach)
 from modules.accent_coach import render_accent_coach_module
 from modules.user_guide import render_user_guide_module
 from modules.voice_clone import render_voice_clone_module
@@ -1053,7 +1056,7 @@ else:
             render_voice_clone_module(LANGUAGES)
 
     # ─────────────────────────────────────────────────────────
-    # SCREEN: DOCUMENT & FILE AUDIO TRANSLATOR
+    # SCREEN: DOCUMENT & FILE
     # ─────────────────────────────────────────────────────────
     elif st.session_state["page"] == "doc_translate":
         col_spacer, col_main, col_side = st.columns([0.2, 2.6, 0.2])
@@ -1063,7 +1066,7 @@ else:
                 st.session_state["doc_voice_played"] = False
                 st.rerun()
             
-            st.markdown("<div class='glow-title' style='font-size:32px;'>📂 DOCUMENT & FILE AUDIO TRANSLATOR</div>", unsafe_allow_html=True)
+            st.markdown("<div class='glow-title' style='font-size:32px;'>📂 DOCUMENT & FILE</div>", unsafe_allow_html=True)
             st.markdown("<div class='subtitle-anim'>Extract Text from .TXT / .PDF, Translate & Synthesize Audio Stream</div>", unsafe_allow_html=True)
             st.markdown("<hr class='neon-divider'>", unsafe_allow_html=True)
             
